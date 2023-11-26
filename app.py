@@ -1,5 +1,9 @@
 import pandas as pd
 import re
+
+
+nltk.download('stopwords')
+
 from nltk.corpus import stopwords
 from transformers import BertTokenizer, BertForSequenceClassification
 from transformers import pipeline
